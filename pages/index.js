@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Main from "../Components/Main";
 import Navbar from "../Components/Navbar";
-import Layout from "../Components/layout";
+import Layout from "../Components/Layout";
 export default function Home() {
   return (
     <div>
