@@ -4,7 +4,7 @@ import Html from '../public/Skills/html.png';
 import Css from '../public/Skills/css.png';
 import Javascript from '../public/Skills/javascript.png';
 import ReactImg from '../public/Skills/react.png';
-import Tailwind from '../public/Skills/tailwind.png';
+import Tailwind from '../public/Skills/Tailwind.png';
 import Github from '../public/Skills/Github.png';
 import MOngo from '../public/Skills/mongo.png';
 import NextJS from '../public/Skills/nextjs.png'
