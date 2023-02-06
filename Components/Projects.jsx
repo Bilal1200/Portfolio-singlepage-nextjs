@@ -8,13 +8,13 @@ import ReactImg from "../public/Skills/react.png";
 import NextJS from "../public/Skills/nextjs.png";
  const Projects = () => {
   return (
-    <div id="projects" className="w-full">
+    <div id="projects" className="container w-full mx-auto lg:max-w-7xl">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <p className="text-xl tracking-widest uppercase text-[#5651e5]">
+        <p className="text-xl tracking-widest uppercase font-bold text-[30px] text-[#fff]">
           Projects
         </p>
-        <h2 className="py-4">What I&apos;ve Built</h2>
-        <div className="grid md:grid-cols-2 gap-8">
+        <h2 className="py-4 text-[#fff]">What I&apos;ve Built</h2>
+        <div className="grid gap-8 md:grid-cols-2">
           <ProjectItem
             title="Muzix"
             backgroundImg={Html}
