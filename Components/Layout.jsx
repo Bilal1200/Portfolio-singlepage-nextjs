@@ -11,7 +11,7 @@ function Layout() {
 <Main/>
 <About />
 <Skills />
-<Projects />
+{/* <Projects /> */}
 <Contact />
 </>
 
