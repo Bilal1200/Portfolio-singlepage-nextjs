@@ -14,11 +14,14 @@ const resume = () => {
         <link rel="icon" href="/fav.png" />
       </Head>
 
-      <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
+      <div className="container lg:max-w-7xl bg-[#fff]  mx-auto p-8 pt-[120px]">
         <h2 className="text-center">Resume</h2>
         <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
           <h2 className="text-center">Bilal Asghar</h2>
           <div className="flex">
+          <p className="mx-4 font-bold">bilalasghar120@gmail.com</p>
+
+            <p className="mx-4 font-bold">+923035992065</p>
             <a
               href="https://www.linkedin.com/in/bilal-asghar-ba4699164/"
               target="_blank"
@@ -35,7 +38,7 @@ const resume = () => {
             </a>
           </div>
         </div>
-        <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
+        <div className="py-4 text-xl font-bold tracking-wider text-center uppercase">
           <div className="hidden sm:block">
             <p>
               Proven Leadership <span className="px-1">|</span> Web Development{" "}
@@ -61,13 +64,16 @@ const resume = () => {
         </p>
 
         {/* Skills */}
-        <div className="text-center py-4">
+        <div className="py-4 text-center">
           <h5 className="text-center underline text-[18px] py-2">Skills</h5>
           <p className="py-2">
             <span className="font-bold">Technical Skills</span>
             <span className="px-2">|</span>Front-End Web Developer
             <span className="px-2">|</span> HTML <span className="px-2">|</span>
-            CSS <span className="px-2">|</span>React js
+            CSS{" "}
+           <span className="px-2">|</span>BootStrap 
+              <span className="px-2">|</span>MUI
+            React js
             <span className="px-2">|</span>Tailwind
             <span className="px-2">|</span> MongoDB
             <span className="px-2">|</span> Next js
@@ -80,7 +86,7 @@ const resume = () => {
         {/* Experience */}
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">
+            <span className="italic font-bold">
               Reactiv Space (A block Chain Devlopement Company)
             </span>
             <span className="px-2">|</span>Bahria Town phase 4
@@ -88,7 +94,7 @@ const resume = () => {
           <p className="py-1 italic">
             Software Engineer ( Dec, 2021 - Current)
           </p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+          <ul className="py-1 leading-relaxed list-disc list-outside px-7">
             <li>
               Ensured comprehensive mobile responsive UI layouts with
               understanding of HTML, CSS, and JavaScript.
@@ -108,8 +114,8 @@ const resume = () => {
             <span className="font-bold">Greenvalley</span>
             <span className="px-2">|</span>Bahria town pahse 7
           </p>
-          <p className="py-1 italic">IT Assistant ( june,2020 - dec,2021)</p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+          <p className="py-1 italic">IT Assistant [Team Lead] ( june,2020 - dec,2021)</p>
+          <ul className="py-1 leading-relaxed list-disc list-outside px-7">
             <li>
               Serving as the first point of contact for end-user support of
               computer systems/networks on a routine basis. Managing daily
@@ -133,13 +139,14 @@ const resume = () => {
             <span className="font-bold">Shifa international hospital</span>
             <span className="px-2">|</span>Islamabad
           </p>
-          <p className="py-1 italic">Sfotware Engineer (internee) (Aug, 2019 - Dec, 2019 )</p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+          <p className="py-1 italic">
+            Software Engineer (internee) (Aug, 2019 - Dec, 2019 )
+          </p>
+          <ul className="py-1 leading-relaxed list-disc list-outside px-7">
             <li>
-              Get Training in devlopement feild 
-              Technlogies include (python ,machine learning , Data Science)
+              Get Training in devlopement feild Technlogies include (python
+              ,machine learning , Data Science)
             </li>
-           
           </ul>
         </div>
       </div>
