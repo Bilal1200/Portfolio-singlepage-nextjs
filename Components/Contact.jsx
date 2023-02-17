@@ -100,6 +100,7 @@ const Contact = () => {
                       className='flex p-3 border-2 border-gray-300 rounded-lg'
                       type='text'
                       name='name'
+                      placeholder='name'
                       value={name}
                       onChange={(e) => setName(e.target.value)}
                     />
@@ -112,6 +113,7 @@ const Contact = () => {
                       className='flex p-3 border-2 border-gray-300 rounded-lg'
                       type='text'
                       name='phone'
+                      placeholder='Number'
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
                     />
